@@ -38,3 +38,29 @@ ul{
 li{
     margin-left: 20px;
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 20px;
+}
+
+.content{
+    width:70%;
+    height: 1000px;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.sidebar{
+    width: 30%;
+    height: 1000px;
+    color: white;
+    background-color: darkgray;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+}
